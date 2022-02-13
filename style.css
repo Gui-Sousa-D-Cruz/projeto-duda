@@ -42,7 +42,6 @@ header >h1{
 
 header >p{
     padding-bottom: 50px;
-    font-size: 0.9em;
 
 }
 
@@ -88,6 +87,7 @@ section.imagem >p{
     display: inline-block;
     padding: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+    font-size: 4vw;
 }
 
 section#img01{
