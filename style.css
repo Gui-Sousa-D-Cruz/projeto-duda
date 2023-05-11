@@ -64,6 +64,22 @@ section{
     font-size: 3.3vw;
 }
 
+
+section > div > button{
+    line-height: 2em;
+    width: 10vw;
+    font-family: var(--font3);
+    font-size: 3.3vw;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #DE92E6, #B18DF2  );
+}
+
+section > div > button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #d770e2, #9b6eee  );
+}
+
 section > p{
     padding-bottom: 2em;
 }
@@ -97,7 +113,7 @@ section#img01{
 }
 
 section#img02{ 
-    background-image: url('imagens/fundo1.jpg');
+    background-image: url('imagens/nos.png');
     font-size: 2em;
     background-position: center center;
 
